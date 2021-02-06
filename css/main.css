@@ -1,54 +1,65 @@
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
 * {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
-.nav-header>.nav-header-links>a {
-    color: rgba(255, 255, 255, 0.39);
+.nav-header-links > a {
+  color: rgba(255, 255, 255, 0.39);
 }
 
-.nav-header>.nav-header-links>a:hover {
-    font-weight: bolder;
-    color: white;
+.nav-header-links > a:hover {
+  font-weight: bolder;
+  color: white;
 }
 
 .carrusel {
-    height: 400px;
+  height: 400px;
 }
 
 .carrusel .carrusel-item {
-    height: 100%;
+  height: 100%;
 }
 
 .carrusel .carrusel-caption {
-    color: red;
-    position: relative;
-    top: -100px;
-    left: auto;
+  color: red;
+  position: relative;
+  top: -100px;
+  left: auto;
 }
 
 .list-group-item,
 .list-group-item-action {
-    border: none;
+  border: none;
 }
 
 .footer-feature *,
 .footer-resource *,
 .footer-team *,
 .footer-contact * {
-    background: none;
-    color: white;
-    font-weight: bold;
+  background: none;
+  color: white;
+  font-weight: bold;
 }
 
+.card-body {
+  padding: 0;
+}
 
+.card-body .card-title {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.card-body .card-text {
+  padding: 20px 30px 30px 30px;
+}
 /*# sourceMappingURL=main.css.map */
