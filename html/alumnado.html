@@ -12,17 +12,24 @@
 
 <body>
     <!--HEADER-NAV-->
-    <nav class="nav bg-primary nav-header d-flex justify-content-between">
-        <a class="navbar-brand" href="#">
+    <nav class="navbar navbar-expand-lg bg-primary nav-header fixed-top">
+        <a class="navbar-brand" href="../index.html">
             <img src="../assets/img/logoPere.jpg" width="30" height="30" class="d-inline-block align-start" alt=""> IES Pere Maria Orts
         </a>
-        <div class="nav-header-links d-flex">
-            <a class="nav-link" href="../index.html"><i class="fas fa-home"></i> Inicio</a>
-            <a class="nav-link" href="./centro.html"><i class="fas fa-synagogue"></i> Centro</a>
-            <a class="nav-link" href="./estudios.html"><i class="fas fa-briefcase"></i> Estudios</a>
-            <a class="nav-link" href="./practicas.html"><i class="fas fa-hammer"></i> Prácticas</a>
-            <a class="nav-link text-white" href="#"><i class="fas fa-user-graduate"></i> Alumnado</a>
-            <a class="nav-link" href="./profesores.html"><i class="fas fa-chalkboard-teacher"></i> Profesores</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars text-white"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end nav-header-links" id="navbarNav">
+            <ul class="navbar-nav flex-row">
+                <a class="nav-link text-sm-white" href="../index.html"><i class="fas fa-home"></i> Inicio</a>
+                <a class="nav-link" href="#"><i class="fas fa-synagogue"></i> Centro</a>
+                <a class="nav-link" href="./estudios.html"><i class="fas fa-briefcase"></i> Estudios</a>
+                <a class="nav-link" href="./practicas.html"><i class="fas fa-hammer"></i> Prácticas</a>
+                <a class="nav-link" href="./alumnado.html"><i class="fas fa-user-graduate"></i> Alumnado</a>
+                <a class="nav-link" href="./profesores.html"><i class="fas fa-chalkboard-teacher"></i>
+                    Profesores</a>
+            </ul>
+
         </div>
     </nav>
     <div class="row d-flex justify-content-center">
