@@ -1,5 +1,22 @@
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+.card-custom-landing .card-body {
+  padding: 0;
+}
+
+.card-custom-landing .card-body .card-title {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.card-custom-landing .card-body .card-text {
+  padding: 20px 30px 30px 30px;
+}
+
+.card-custom-centro {
+  border: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -12,11 +29,11 @@ a {
   text-decoration: none;
 }
 
-.nav-header-links > a {
+.nav-header-links a {
   color: rgba(255, 255, 255, 0.39);
 }
 
-.nav-header-links > a:hover {
+.nav-header-links a:hover {
   font-weight: bolder;
   color: white;
 }
@@ -36,6 +53,11 @@ a {
   left: auto;
 }
 
+.actual-path {
+  margin-bottom: 20px;
+  background-color: #e8ecef;
+}
+
 .list-group-item,
 .list-group-item-action {
   border: none;
@@ -48,18 +70,5 @@ a {
   background: none;
   color: white;
   font-weight: bold;
-}
-
-.card-body {
-  padding: 0;
-}
-
-.card-body .card-title {
-  padding: 10px;
-  font-weight: bold;
-}
-
-.card-body .card-text {
-  padding: 20px 30px 30px 30px;
 }
 /*# sourceMappingURL=main.css.map */

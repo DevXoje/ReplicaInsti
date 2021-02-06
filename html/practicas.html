@@ -13,17 +13,24 @@
 
 <body>
     <!--HEADER-NAV-->
-    <nav class="nav bg-primary nav-header d-flex justify-content-between">
-        <a class="navbar-brand" href="#">
+    <nav class="navbar navbar-expand-lg bg-primary nav-header fixed-top">
+        <a class="navbar-brand" href="../index.html">
             <img src="../assets/img/logoPere.jpg" width="30" height="30" class="d-inline-block align-start" alt=""> IES Pere Maria Orts
         </a>
-        <div class="nav-header-links d-flex">
-            <a class="nav-link" href="../index.html"><i class="fas fa-home"></i> Inicio</a>
-            <a class="nav-link" href="./centro.html"><i class="fas fa-synagogue"></i> Centro</a>
-            <a class="nav-link" href="./estudios.html"><i class="fas fa-briefcase"></i> Estudios</a>
-            <a class="nav-link text-white" href="#"><i class="fas fa-hammer"></i> Prácticas</a>
-            <a class="nav-link" href="./alumnado.html"><i class="fas fa-user-graduate"></i> Alumnado</a>
-            <a class="nav-link" href="./profesores.html"><i class="fas fa-chalkboard-teacher"></i> Profesores</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars text-white"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end nav-header-links" id="navbarNav">
+            <ul class="navbar-nav flex-row">
+                <a class="nav-link text-sm-white" href="../index.html"><i class="fas fa-home"></i> Inicio</a>
+                <a class="nav-link" href="#"><i class="fas fa-synagogue"></i> Centro</a>
+                <a class="nav-link" href="./estudios.html"><i class="fas fa-briefcase"></i> Estudios</a>
+                <a class="nav-link" href="./practicas.html"><i class="fas fa-hammer"></i> Prácticas</a>
+                <a class="nav-link" href="./alumnado.html"><i class="fas fa-user-graduate"></i> Alumnado</a>
+                <a class="nav-link" href="./profesores.html"><i class="fas fa-chalkboard-teacher"></i>
+                    Profesores</a>
+            </ul>
+
         </div>
     </nav>
     <div class="container">
@@ -42,88 +49,115 @@
             </a>
         </div>
         <!--ACTUAL PATH-->
-        <div class="bg-secondary">
+        <div class="actual-path">
             <a href="#">Inicio</a>/Prácticas
         </div>
         <div class="row">
             <!--MAIN-NAV-->
-            <nav class="list-group col-3">
+            <nav class="list-group col-2 d-none d-lg-block">
                 <header class="list-group-item">
                     <i class="fas fa-link"></i>
                     <h4 class="d-inline">Menú</h4>
                 </header>
-                <a href="../index.html" class="list-group-item list-group-item-action text-primary"><i
-                        class="fas fa-home"></i>
+
+                <a href="#" class="list-group-item list-group-item-action text-primary"><i class="fas fa-home"></i>
                     Inicio</a>
-                <a href="#" class="list-group-item list-group-item-action text-primary"><i class="fas fa-synagogue"></i>
-                    Centro</a>
-                <a href="./estudios.html" class="list-group-item list-group-item-action text-primary"><i
-                        class="fas fa-briefcase"></i>
-                    Estudios</a>
-                <a href="./practicas.html" class="list-group-item list-group-item-action text-primary"><i
-                        class="fas fa-hammer"></i>
-                    Prácticas</a>
-                <a href="./alumnado.html" class="list-group-item list-group-item-action text-primary"><i
+                <a href="./html/centro.html" class="list-group-item list-group-item-action text-primary"><i
+                        class="fas fa-synagogue"></i> Centro</a>
+                <a href="./html/estudios.html" class="list-group-item list-group-item-action text-primary"><i
+                        class="fas fa-briefcase"></i> Estudios</a>
+                <a href="./html/practicas.html" class="list-group-item list-group-item-action text-primary"><i
+                        class="fas fa-hammer"></i> Prácticas</a>
+                <a href="./html/alumnado.html" class="list-group-item list-group-item-action text-primary"><i
                         class="fas fa-user-graduate"></i>
                     Alumnado</a>
-                <a href="./profesores.html" class="list-group-item list-group-item-action text-primary"><i
+                <a href="./html/profesores.html" class="list-group-item list-group-item-action text-primary"><i
                         class="fas fa-chalkboard-teacher"></i>
                     Profesores</a>
             </nav>
-            <div class="col-6">
-
-            </div>
-            <div class="col-3">
-                <header class="list-group-item">
-                    <i class="fas fa-link"></i>
-                    <h4 class="d-inline">Enlaces</h4>
+            <!--CONTENT-->
+            <main class="col-12 col-lg-10 mb-5">
+                <header class="bg-secondary d-flex flex-column align-items-center p-5 mb-5">
+                    <h2 class="h1">Prácticas en empresas</h2>
+                    <h3 class="h5">Realiza tus prácticas en las mejoras empresas de la zona</h3>
                 </header>
+                <section class="card-deck">
+                    <article class="card card-custom-centro">
+                        <img class="rounded-circle" src="../assets/img/img_card_centro.PNG" alt="Card image cap" width="150px">
+                        <div class="card-body">
+                            <h5 class="card-title h2">Empresas</h5>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit delectus minima fugiat reprehenderit ipsa, veritatis consectetur. Dignissimos odio officiis necessitatibus cum. Deleniti pariatur modi eius animi corporis quod,
+                                sed error.
+                            </p>
+                            <button type="button" name="btn_card" id="btn_card" class="btn btn-primary btn-lg btn-block">Ver
+                                Detalles >></button>
+                        </div>
+                    </article>
+                    <article class="card card-custom-centro">
+                        <img class="rounded-circle" src="../assets/img/img_card_centro.PNG" alt="Card image cap" width="150px">
+                        <div class="card-body">
+                            <h5 class="card-title h2">Trabajo</h5>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit delectus minima fugiat reprehenderit ipsa, veritatis consectetur. Dignissimos odio officiis necessitatibus cum. Deleniti pariatur modi eius animi corporis quod,
+                                sed error.
+                            </p>
+                            <button type="button" name="btn_card" id="btn_card" class="btn btn-primary btn-lg btn-block">Ver
+                                Detalles >></button>
+                        </div>
+                    </article>
+                    <article class="card card-custom-centro">
+                        <img class="rounded-circle" src="../assets/img/img_card_centro.PNG" alt="Card image cap" width="150px">
+                        <div class="card-body">
+                            <h5 class="card-title h2">Futuro</h5>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit delectus minima fugiat reprehenderit ipsa, veritatis consectetur. Dignissimos odio officiis necessitatibus cum. Deleniti pariatur modi eius animi corporis quod,
+                                sed error.
+                            </p>
+                            <button type="button" name="btn_card" id="btn_card" class="btn btn-primary btn-lg btn-block">Ver
+                                Detalles >></button>
+                        </div>
+                    </article>
+                </section>
+            </main>
 
-
-                <a href="#" class="list-group-item"><img src="../assets/img/LogoUE.png" width="100" height="60" class="d-inline-block align-start" alt=""></a>
-                <a href="#" class="list-group-item"><img src="../assets/img/LogoGV.png" width="100" height="60" class="d-inline-block align-start" alt=""></a>
-                <a href="#" class="list-group-item"><img src="../assets/img/LogoERASMUS.png" width="100" height="60" class="d-inline-block align-start" alt=""></a>
-                <a href="#" class="list-group-item"><img src="../assets/img/LogoMImagine.png" width="100" height="60" class="d-inline-block align-start" alt=""></a>
-                <a href="#" class="list-group-item"><img src="../assets/img/LogoSAO.png" width="100" height="60" class="d-inline-block align-start" alt=""></a>
-            </div>
 
         </div>
 
 
     </div>
-
     <!--FOOTER-->
-    <footer class="bg-primary main-footer d-flex align-items-center">
-        <div class="col-3 contact">
-            <figure class="figure w-50">
-                <img src="../assets/img/logoPere.jpg" class="figure-img img-fluid rounded " alt="">
-            </figure>
-            <ul class="list-group">
-                <li class="list-group-item ">IES Pere Maria Orts i Bosh</li>
-                <li class="list-group-item">Telf: 968.87.07.00</li>
-                <li class="list-group-item ">Correo Electrónico:<a href="mailto:email@example.com" class="d-inline">email@example.com</a>
-                </li>
-            </ul>
-        </div>
+    <footer class="bg-primary main-footer d-flex pt-5 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 footer-contact">
+                    <figure class="figure w-50">
+                        <img src="../assets/img/logoPere.jpg" class="figure-img img-fluid rounded " alt="">
+                    </figure>
+                    <ul class="list-group">
+                        <li class="list-group-item ">IES Pere Maria Orts i Bosh</li>
+                        <li class="list-group-item">Telf: 968.87.07.00 Fax: 966.87.07.01</li>
+                        <li class="list-group-item ">Correo Electrónico:<a href="mailto:email@example.com" class="d-inline">email@example.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="list-group col-md-3 footer-feature">
+                    <h4 class="list-group-item ">Enlaces 1</h4>
+                    <a href="#" class="list-group-item list-group-item-action">Cool stuff</a>
+                    <a href="#" class="list-group-item list-group-item-action">Random feature</a>
+                    <a href="#" class="list-group-item list-group-item-action">Team feature</a>
+                </div>
+                <div class="list-group col-md-3 footer-resource">
+                    <h4 class="list-group-item">Enlaces 2</h4>
+                    <a href="#" class="list-group-item list-group-item-action">Resource</a>
+                    <a href="#" class="list-group-item list-group-item-action">Resource name</a>
+                    <a href="#" class="list-group-item list-group-item-action">Another resource</a>
+                </div>
+                <div class="list-group col-md-3 footer-team">
+                    <h4 class="list-group-item">Enlaces 3</h4>
+                    <a href="#" class="list-group-item list-group-item-action">Cool stuff</a>
+                    <a href="#" class="list-group-item list-group-item-action">Random feature</a>
+                    <a href="#" class="list-group-item list-group-item-action">Team feature</a>
+                </div>
+            </div>
 
-
-        <div class="list-group col-3" id="footer-feature">
-            <h4 class="list-group-item ">Enlaces 1</h4>
-            <a href="#" class="list-group-item list-group-item-action">Cool stuff</a>
-            <a href="#" class="list-group-item list-group-item-action">Random feature</a>
-            <a href="#" class="list-group-item list-group-item-action">Team feature</a>
-        </div>
-        <div class="list-group col-3" id="footer-resource">
-            <h4 class="list-group-item">Enlaces 2</h4>
-            <a href="#" class="list-group-item list-group-item-action">Resource</a>
-            <a href="#" class="list-group-item list-group-item-action">Resource name</a>
-            <a href="#" class="list-group-item list-group-item-action">Another resource</a>
-        </div>
-        <div class="list-group col-3" id="footer-team">
-            <h4 class="list-group-item">Enlaces 3</h4>
-            <a href="#" class="list-group-item list-group-item-action">Cool stuff</a>
-            <a href="#" class="list-group-item list-group-item-action">Random feature</a>
-            <a href="#" class="list-group-item list-group-item-action">Team feature</a>
         </div>
     </footer>
 

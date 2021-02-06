@@ -1,0 +1,13 @@
+.card-custom-landing .card-body {
+  padding: 0;
+}
+
+.card-custom-landing .card-body .card-title {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.card-custom-landing .card-body .card-text {
+  padding: 20px 30px 30px 30px;
+}
+/*# sourceMappingURL=landing.css.map */
