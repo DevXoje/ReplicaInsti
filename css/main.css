@@ -58,6 +58,15 @@ a {
   background-color: #e8ecef;
 }
 
+.nav-content .selected {
+  font-weight: bold;
+  color: #03025c;
+}
+
+.main-content header {
+  background-color: #e8ecef;
+}
+
 .list-group-item,
 .list-group-item-action {
   border: none;
