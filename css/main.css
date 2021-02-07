@@ -54,6 +54,7 @@ a {
 }
 
 .actual-path {
+  padding: 5px 10px;
   margin-bottom: 20px;
   background-color: #e8ecef;
 }
