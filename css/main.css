@@ -38,19 +38,18 @@ a {
   color: white;
 }
 
-.carrusel {
-  height: 400px;
+.container {
+  margin-top: 100px;
 }
 
-.carrusel .carrusel-item {
-  height: 100%;
+.carousel {
+  height: 350px;
 }
 
-.carrusel .carrusel-caption {
-  color: red;
+.carousel .carousel-caption {
   position: relative;
-  top: -100px;
-  left: auto;
+  bottom: 250px;
+  left: 150px;
 }
 
 .actual-path {
