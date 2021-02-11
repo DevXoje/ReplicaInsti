@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,mBAAmB,CAAC;EAChB,MAAM,EAAE,IAAI;CACf",
+    "mappings": "",
     "sources": [
         "../scss/centro.scss"
     ],
